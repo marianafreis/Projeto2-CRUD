@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+  width: 100%;
+}
+
+.conteudo-login-form-titulo {
+  display: block;
+  font-size: 30px;
+  color: white;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.conteudo-login-form-input {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #ff9200;
+  margin: 20px 0px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  height: 45px;
+  line-height: 1.2;
+  padding: 0 5px;
+  font-size: 15px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: unset;
+}
+
+.input::placeholder {
+  color: white;
+}
+
+.conteudo-login-form-botao {
+  display: flex;
+  justify-items: center;
+  padding-bottom: 15px;
+}
+
+.login-form-botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff9200;
+  color: white;
+}
+
+.login-form-botao:hover {
+  cursor: pointer;
+  background-color: #d47901;
+}
+
+.conteudo-login-texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.login-texto {
+  font-size: 15px;
+  color: white;
+  line-height: 1.5;
+  padding-right: 5px;
+}
+
+.login-link {
+  font-size: 15px;
+  font-weight: bold;
+  color: #d47901;
+  line-height: 1.5;
+  text-decoration: none;
+}

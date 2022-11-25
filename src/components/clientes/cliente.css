@@ -1,0 +1,16 @@
+.conteudo-lista-cliente {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conteudo-lista-cliente p {
+  width: 33%;
+  text-align: center;
+}
+
+.conteudo-lista-cliente p:hover {
+  cursor: pointer;
+}

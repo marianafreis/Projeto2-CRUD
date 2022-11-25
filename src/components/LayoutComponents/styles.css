@@ -1,0 +1,21 @@
+.conteudo {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.conteudo-login {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.conteudo-login-form {
+  width: 400px;
+  background-color: #006ac8;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 50px;
+}
