@@ -2,7 +2,7 @@
  CRUD de clientes usando react
 
 **Funcionalidades:**
-login e logout
+* login e logout
 * CREATE - cadastrar clientes no banco de dados
 * READ - listar clientes
 * UPDATE - atualizar clientes (NÃO ESTÁ FUNCIONANDO)
